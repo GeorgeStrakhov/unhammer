@@ -1,0 +1,27 @@
+{
+  "name": "unhammer",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.1",
+    "list.js": "^1.2.0",
+    "tabletop": "^1.4.3",
+    "list.fuzzysearch.js": "^0.1.0",
+    "handlebars": "^4.0.5",
+    "lodash": "^4.11.2",
+    "astorage": "^1.1.0"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
